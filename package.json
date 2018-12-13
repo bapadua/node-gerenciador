@@ -1,0 +1,32 @@
+{
+  "name": "gerenciador",
+  "version": "1.0.0",
+  "description": "Gerenciador de financas NodeJs & Angular6",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solucaologica/node-gerenciador.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "Angular6"
+  ],
+  "author": "Bruno A. Padua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solucaologica/node-gerenciador/issues"
+  },
+  "homepage": "https://github.com/solucaologica/node-gerenciador#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
